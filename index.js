@@ -132,7 +132,7 @@ document
   .addEventListener("click", function () {
     let copyText = document.getElementById("passwordone-el").innerText;
     navigator.clipboard.writeText(copyText);
-    alert("Password 1 copied to clipboard!");
+    // alert("Password 1 copied to clipboard!");
   });
 
 document
